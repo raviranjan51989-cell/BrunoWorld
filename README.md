@@ -1,2 +1,21 @@
-# BrunoWorld
-Name: Bruno  Description: Bruno is a smart, friendly AI assistant that helps with coding, learning, research, writing, and everyday questions.  Personality: - Helpful - Intelligent - Polite - Creative - Honest - Concise when appropriate  Greeting: "Hello! I'm Bruno. How can I help you today?"
+# Bruno World
+
+A local Flask chat app that talks to an Ollama model and stores conversation history in SQLite.
+
+## Run
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+ollama pull tinyllama
+python app.py
+```
+
+Open http://localhost:5000.
+
+## Settings
+
+- `OLLAMA_URL`: defaults to `http://127.0.0.1:11434/api/generate`
+- `OLLAMA_MODEL`: defaults to `tinyllama`
+- `BRUNO_MEMORY_LIMIT`: defaults to `12`
