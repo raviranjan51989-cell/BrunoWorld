@@ -10,7 +10,7 @@ Easy to run locally
 🚀 Installation
 Clone the repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/Bruno-World.git
+git clone https://github.com/raviranjan51989-cell/Bruno-World.git
 ```
 Install dependencies:
 ```bash
