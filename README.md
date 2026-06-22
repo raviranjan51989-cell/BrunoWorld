@@ -8,24 +8,7 @@ Built with Flask
 Powered by Ollama AI models
 Easy to run locally
 🚀 Installation
-Clone the repository:
-```bash
-git clone https://github.com/raviranjan51989-cell/Bruno-World.git
-```
-Install dependencies:
-```bash
-pip install flask requests
-```
-Start Ollama:
-```bash
-ollama run llama3
-```
-Run the application:
-```bash
-python app.py
-```
-Open your browser:
-```text
+
 http://localhost:5000
 ```
 🛠 Technologies Used
